@@ -1,9 +1,3 @@
-//（Problem 46）Goldbach's other conjecture
-// Completed on Fri, 26 Jul 2013, 16:58
-// Language: C11
-//
-// 版权所有（C）acutus   (mail: acutus@126.com) 
-// 博客地址：http://www.cnblogs.com/acutus/
 #include<stdio.h>
 #include<math.h>
 #include<string.h>
@@ -11,7 +5,7 @@
 #include<stdlib.h>
 #include<stdbool.h>
 
-bool issquare(int n)			//判断一个自然数是否为一个平方数
+bool issquare(int n)			//鍒ゆ柇涓�涓嚜鐒舵暟鏄惁涓轰竴涓钩鏂规暟
 {
 	if (ceil(sqrt(n)) * ceil(sqrt(n)) == n)
 		return true;
@@ -19,7 +13,7 @@ bool issquare(int n)			//判断一个自然数是否为一个平方数
 		return false;
 }
 
-bool isprim(int n)				//素数判断
+bool isprim(int n)				//绱犳暟鍒ゆ柇
 {
 	for (int i = 2; i * i <= n; i++) {
 		if (n % i == 0)
