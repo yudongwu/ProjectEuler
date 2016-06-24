@@ -5,10 +5,10 @@
 #include<stdlib.h>
 #include<stdbool.h>
 
-bool palindromic(int n)			//ÅĞ¶ÏÒ»¸öÕûÊıÊÇ·ñÎª»ØÎÄÊı
+bool palindromic(int n)			//åˆ¤æ–­ä¸€ä¸ªæ•´æ•°æ˜¯å¦ä¸ºå›æ–‡æ•°
 {
 	char s[10];
-	sprintf(s, "%d", n);		//½«ÕûÊın±£´æÔÚ×Ö·ûÊı×ésÖĞ
+	sprintf(s, "%d", n);		//å°†æ•´æ•°nä¿å­˜åœ¨å­—ç¬¦æ•°ç»„sä¸­
 	int i, len;
 	len = strlen(s);
 	for (i = 0; i < len / 2; i++) {
@@ -18,7 +18,7 @@ bool palindromic(int n)			//ÅĞ¶ÏÒ»¸öÕûÊıÊÇ·ñÎª»ØÎÄÊı
 	return true;
 }
 
-bool have_the_factor(int n)		//ÅĞ¶ÏÊÇ·ñº¬ÓĞÁ½¸ö3Î»ÊıµÄÒòÊı
+bool have_the_factor(int n)		//åˆ¤æ–­æ˜¯å¦å«æœ‰ä¸¤ä¸ª3ä½æ•°çš„å› æ•°
 {
 	int s = 999;
 	int r, b;
