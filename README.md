@@ -12,12 +12,12 @@ This repository contains source code(main C code) of ProjectEuler problems.
 
 suport three methods to access：
 
-* HTTP: `https://github.com/gotgithub/helloworld.git` 。
-* Git: `git://github.com/gotgithub/helloworld.git` 。
-* SSH: `ssh://git@github.com/gotgithub/helloworld.git` 。
+* HTTP: `https://github.com/yudongwu/ProjectEuler.git` 。
+* Git: `git@github.com:yudongwu/ProjectEuler.git` 。
+* SSH: `ssh://git@github.com/yudongwu/ProjectEuler.git` 。
 
 # clone
 
 example：
 
-    $ git clone git://github.com/gotgithub/helloworld.git
+    $ git clone git://github.com/yudongwu/ProjectEuler.git
